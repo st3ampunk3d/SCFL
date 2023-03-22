@@ -9,6 +9,7 @@ custom adapters for GUI elements.
 
 ### See It in Action
 Here is a [demo](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1157612/uiconf_id/42438192/entry_id/1_35dht3g2/embed/dynamic) where I show some of the code and the app running in an emulator.
+
 Here is the [demo video](https://cdnapisec.kaltura.com/index.php/extwidget/preview/partner_id/1157612/uiconf_id/42438192/entry_id/1_mdimiiga/embed/dynamic) from the console app I made previously. The console app served as the base code for most of the app.
 
 # Development Environment
