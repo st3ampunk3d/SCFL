@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.scfl.HomeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_FirstFragment_to_races450Fragment"
+            app:destination="@id/races450Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/races450Fragment"
+        android:name="com.example.scfl.Races450Fragment"
+        android:label="@string/races450_fragment_label">
+        <argument android:name="eventClass" />
+        <action
+            android:id="@+id/action_races450Fragment_to_ridersFragment"
+            app:destination="@id/ridersFragment" />
+        <action
+            android:id="@+id/action_races450Fragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ridersFragment"
+        android:name="com.example.scfl.RidersFragment"
+        android:label="@string/riders">
+        <argument android:name="eventClass" />
+        <argument android:name="race" />
+        <action
+            android:id="@+id/action_ridersFragment_to_races450Fragment2"
+            app:destination="@id/races450Fragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SCFL</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">SuperCross Fantasy League</string>
+    <string name="races450_fragment_label">{eventClass}sx - Races</string>
+    <string name="races">{eventClass}sx - Races</string>
+    <string name="races1">450sx</string>
+    <string name="races2">250sx</string>
+    <string name="riders">{eventClass}sx - {race} - Riders</string>
+    <string name="save">Save</string>
+    <string name="update">Refresh</string>
+    <string name="home">Back</string>
+
+</resources>
